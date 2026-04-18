@@ -27,7 +27,7 @@ import { Audio } from 'expo-av';
 // ---------------------------------------------------------------------------
 // Configuration – change this to your machine's LAN IP when testing on device
 // ---------------------------------------------------------------------------
-const BACKEND_URL = '192.168.1.3';
+const BACKEND_URL = 'http://192.168.1.3:8000';
 
 // ---------------------------------------------------------------------------
 // Design tokens (Fintech: Dark Navy + Gold/Amber)
