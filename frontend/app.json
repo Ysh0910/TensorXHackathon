@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "GoldAssessment",
+    "slug": "gold-assessment",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#0D1B2A"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Camera is required to capture gold sample images.",
+        "NSMicrophoneUsageDescription": "Microphone is required to record the tap test audio."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0D1B2A"
+      },
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow Gold Assessment to access your camera."
+        }
+      ]
+    ]
+  }
+}
